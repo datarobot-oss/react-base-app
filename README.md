@@ -41,7 +41,7 @@ There is a `server.js` file that contains all the Node.js server functionality, 
 
 ### React app
 
-You can find the base React application in the `./client` directory. It includes examples of working with images, CSS, and making API calls. You can run this application locally by executing `npm start` inside the `client` directory. Ensure the server is running as described in the Setup section.
+You can find the base React application in the `./client` directory. It includes examples of working with images, CSS, and making API calls. You can run this application locally by executing `npm run dev` inside the `client` directory. Ensure the server is running as described in the Setup section.
 
 
 ## Add and use runtime parameters
