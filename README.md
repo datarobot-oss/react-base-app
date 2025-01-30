@@ -57,7 +57,7 @@ runtimeParameterDefinitions:
 Once this file is part of your application source in DataRobot, it displays the new runtime parameter(s) as part of the
 app configuration.
 
-To use the parameters, DataRobot recommends you add them via `start-app.sh`. Add the following conditional export before `gunicorn` starts:
+To use the parameters, DataRobot recommends you add them via `start-app.sh`. Add the following conditional export before the start command:
 
 ```shell
 if [ -n "$MLOPS_RUNTIME_PARAM_DEPLOYMENT_ID" ]; then
