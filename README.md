@@ -2,6 +2,7 @@
 
 In this repository, you will find a base template for an application with a Node.js server and a React frontend to kickstart custom app development.
 
+
 ## Setup
 
 You can run the JavaScript-based application in DataRobot using a custom application or by running it locally. Custom applications can be created either via the NextGen Registry's **Applications** page or by using [DRApps](https://github.com/datarobot/dr-apps/blob/main/README.md).
@@ -34,6 +35,15 @@ npm install
 npm run build
 ```
 
+### Note.js server
+
+There is a `server.js` file that contains all the Node.js server functionality, including examples of how to communicate with the DataRobot and handle routes.
+
+### React app
+
+You can find the base React application in the `./client` directory. It includes examples of working with images, CSS, and making API calls. You can run this application locally by executing `npm start` inside the `client` directory. Ensure the server is running as described in the Setup section.
+
+
 ## Add and use runtime parameters
 
 To add runtime parameters, create a `metadata.yaml` file in your application source folder. Here is an example of a `DEPLOYMENT_ID` that creates an environment variable called `MLOPS_RUNTIME_PARAM_DEPLOYMENT_ID`:
@@ -57,10 +67,4 @@ fi
 
 Now you can use `process.env.DEPLOYMENT_ID` within your application code.
 
-## Note.js server
 
-There is a `server.js` file that contains all the Node.js server functionality, including examples of how to communicate with the DataRobot and handle routes.
-
-## React app
-
-You can find the base React application in the `./client` directory. It includes examples of working with images, CSS, and making API calls. You can run this application locally by executing npm start inside the `client` directory. Ensure the server is running as described in the Setup section.
