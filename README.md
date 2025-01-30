@@ -35,7 +35,7 @@ npm install
 npm run build
 ```
 
-### Note.js server
+### Node.js server
 
 There is a `server.js` file that contains all the Node.js server functionality, including examples of how to communicate with the DataRobot and handle routes.
 
