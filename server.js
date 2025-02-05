@@ -29,9 +29,26 @@ app.get("/api/projects", async (req, res) => {
     const response = await axios.get("/projects/");
     res.json(response.data);
   } catch (error) {
-    res.status(500).json({
-      message: error.message,
-    });
+    if (error.response) {
+      // API responded with an error status
+      return res.status(error.response.status).json({
+        status: error.response.status,
+        data: error.response.data,
+        message: error.message,
+      });
+    } else if (error.request) {
+      // No response received
+      return res.status(500).json({
+        message: "No response from API",
+        error: error.request,
+      });
+    } else {
+      // Other unexpected errors
+      res.status(500).json({
+        message: "Internal Server Error",
+        error: error.message,
+      });
+    }
   }
 });
 
