@@ -1,0 +1,15 @@
+{
+  "name": "Node.js & React Base App",
+  "description": "Leverage DataRobot's out of the box Node.js and React frontend app example to quickly and easily build highly customizable applications.",
+  "templateMetadata": {
+    "tags": ["React", "Node.js", "Base", "Empty"],
+    "source": {
+      "repositoryUrl": "https://github.com/datarobot-oss/react-base-app",
+      "releaseTag": "11.0.3"
+    },
+    "previewImage": null
+  },
+  "templateType": "customApplicationTemplate",
+  "templateSubType": "customApplicationTemplate",
+  "executionEnvironmentName": "[DataRobot] NodeJS 22.14.0 Applications Base"
+}
