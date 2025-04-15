@@ -2,6 +2,7 @@
   "name": "Node.js & React Base App",
   "description": "Leverage DataRobot's out of the box Node.js and React frontend app example to quickly and easily build highly customizable applications.",
   "templateMetadata": {
+    "templateTypeSpecificResources": { "serviceWebRequestsOnRootPath": true },
     "tags": ["React", "Node.js", "Base", "Empty"],
     "source": {
       "repositoryUrl": "https://github.com/datarobot-oss/react-base-app",
