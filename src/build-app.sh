@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
-
+# It's important to fail the build if a command such as `npm install` fails. 
+set -e
 if [ -f "package.json" ]; then
     echo "Installing Node.js dependencies from package.json..."
     npm install
