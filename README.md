@@ -43,6 +43,8 @@ There is a `server.js` file that contains all the Node.js server functionality, 
 
 You can find the base React application in the `./client` directory. It includes examples of working with images, CSS, and making API calls. You can run this application locally by executing `npm run dev` inside the `client` directory. Ensure the server is running as described in the Setup section.
 
+The app ships with a sidebar layout (`client/src/components/Sidebar.jsx`) and four tabs: Overview (connection status, API version, an interactive API explorer, and resource links), Chat (a minimal LLM Gateway client), Deployments, and Use Cases. Extend `server.js`'s existing `/api/*` proxy routes or add your own.
+
 Styling uses Tailwind CSS v4 plus [dr-ui](https://dr-ui.datarobot.com), DataRobot's shadcn-based component registry - see `client/src/theme` for the design tokens and `client/components.json` for the registry configuration. Add more dr-ui components with `npx shadcn@latest add @dr-ui/<component-name>` from the `client` directory.
 
 
