@@ -1,9 +1,9 @@
 {
   "name": "Node.js & React Base App",
-  "description": "Leverage DataRobot's out of the box Node.js and React frontend app example to quickly and easily build highly customizable applications.",
+  "description": "Leverage DataRobot's out of the box Node.js and React frontend app example to quickly and easily build highly customizable applications, complete with an LLM Gateway chat interface and a live API explorer for testing DataRobot API calls.",
   "templateMetadata": {
     "templateTypeSpecificResources": { "serviceWebRequestsOnRootPath": true },
-    "tags": ["React", "Node.js", "Base", "Empty"],
+    "tags": ["React", "Node.js", "Base", "Empty", "GenerativeAI"],
     "source": {
       "repositoryUrl": "https://github.com/datarobot-oss/react-base-app",
       "releaseTag": "11.7.0"
